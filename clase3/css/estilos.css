@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(241, 223, 163);
+    color:rgb(27, 27, 23); 
+    font-family: 'League Spartan', sans-serif;
+    font-weight:200;
+    /* centrar pagina */
+    width:800px;
+    margin: auto;
+
+    text-align: justify;
+}
+
+
+

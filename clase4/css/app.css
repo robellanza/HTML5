@@ -1,0 +1,20 @@
+body {
+    /* centra body */
+    width: 800px;
+    margin: auto;
+    /* centra body */
+
+}
+
+header{ 
+    height: 60px;
+    background-color:aquamarine;
+}
+main{ 
+    min-height: 200px
+}
+
+footer{ 
+    height: 60px;
+    background-color:aquamarine;
+}
