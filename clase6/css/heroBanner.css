@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    font-family: Raleway;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+#hero {
+    height: 560px;
+    background-image: url(../imagen/faro-hero.jpg);    
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+    padding-top:  250px;
+    padding-left: 120px;         
+}
