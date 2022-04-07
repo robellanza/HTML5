@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* centra body */
+    width: 800px;
+    margin: auto;
+    /* centra body */
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    background-color: #f8f8f8;
+    color: #423F3F;
+}
+header{
+    height: 60px;
+    /* background-color: #fbdcd6; */
+
+    display: flex;
+    /* separaciones y alineado */
+    justify-content: space-between;
+
+    /* alinear texto en vertical */
+    line-height: 60px;
+}
+
+/* logo superiot */
+#logo{
+    /* separacion interna */
+    padding-top: 12px;
+}
+ /* enlaces de menu */
+nav a{
+    text-decoration: none; /* quitar el subrayado */
+    color: #423F3F;
+
+    /* agrandamos area de click */
+    padding: 10px;
+
+}
+nav a:hover{
+    color: #D15742;
+}
+
+main{
+    min-height: 575px;
+}
+
+/* formulario de comentarios */
+
+form{
+    width: 600px;
+    margin: auto;
+    padding: 32px;
+    background-color: #4C4949;
+    color: #fff;
+    border-radius: 12px;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #D15742;
+    margin-bottom: 16px;
+}
+textarea{
+    height: 120px;
+    resize: none;
+}
+button{
+    padding: 12px;
+    width: 100%;
+    background-color: #E58878;
+    border: 1px solid #ffb0a2;
+    color: #feebdd;
+    /* para que se cambie el cursor */
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffafa0;
+    color: #fff;
+}
